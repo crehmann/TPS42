@@ -1,0 +1,13 @@
+(footprint "M2_HOLE_PCB" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 5D908E44)
+  (attr through_hole)
+  (fp_text reference "TH2" (at 0 2.7) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5779e286-5fa6-4c00-87c1-9c785ce7aeed)
+  )
+  (fp_text value "HOLE" (at 0 -2.6) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp edcba399-759c-4ad2-9611-a9a7f1f0ce07)
+  )
+  (pad "" thru_hole circle (at 0 0) (locked) (size 4 4) (drill 2.2) (layers *.Cu *.Mask "Dwgs.User") (tstamp 45ec1c34-b46a-46a6-a773-1158c5b82680))
+)

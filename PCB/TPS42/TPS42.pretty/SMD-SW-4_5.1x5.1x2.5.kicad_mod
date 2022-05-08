@@ -1,0 +1,36 @@
+(footprint "SMD-SW-4_5.1x5.1x2.5" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 60B65258)
+  (fp_text reference "SW?" (at 0 -0.03 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0b40be90-f241-4457-8d00-b95e3d6ebdc4)
+  )
+  (fp_text value "SMD-SW-4_5.1x5.1x2.5" (at 0.02 3.91 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c8b04768-c62f-4e4e-b7d6-d93c354f83fa)
+  )
+  (fp_rect (start -4.59 -2.93) (end 4.53 2.96) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 55ed177c-8fba-4afc-9dee-cfe1a59bb49c))
+  (fp_line (start -1.14 2.54) (end 1.16 2.54) (layer "User.1") (width 0.12) (tstamp 07109c35-1e57-43f3-8a6e-2e8519cffac9))
+  (fp_line (start -2.54 -1.16) (end -2.54 1.14) (layer "User.1") (width 0.12) (tstamp 09b4d769-c540-47ba-bc64-f60e95d4ef3b))
+  (fp_line (start 1.16 -2.56) (end 2.56 -1.16) (layer "User.1") (width 0.12) (tstamp 239c0fca-427e-4d92-a02f-ca33f09a6cf2))
+  (fp_line (start 2.56 1.14) (end 2.56 -1.16) (layer "User.1") (width 0.12) (tstamp 9cc0ca21-45fa-4d19-a47d-1a6d0da5d25d))
+  (fp_line (start 1.16 -2.56) (end -1.14 -2.56) (layer "User.1") (width 0.12) (tstamp 9d16c9d5-b1d3-4f33-a089-aa85016ed77a))
+  (fp_line (start 2.56 1.14) (end 1.16 2.54) (layer "User.1") (width 0.12) (tstamp ad2ba707-5e2e-4dbd-8c43-7b90f53418c9))
+  (fp_line (start -1.14 -2.56) (end -2.54 -1.16) (layer "User.1") (width 0.12) (tstamp c4c0bad2-8229-4250-9daa-8b8b34754144))
+  (fp_line (start -1.14 2.54) (end -2.54 1.14) (layer "User.1") (width 0.12) (tstamp d066b896-7c70-410b-a3ca-0bd34e731217))
+  (pad "1" smd rect (at 3 -2) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b02200ac-ea6d-4a75-ac40-c4f34f557d48))
+  (pad "1" smd rect (at -3 -2) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b8cb8f05-d2ff-46ef-bcdf-53abb175c0a6))
+  (pad "2" smd rect (at -3 2) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 11ebcdf7-7118-4c12-bb9b-6deb9172b263))
+  (pad "2" smd rect (at 3 2) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 987861c5-2586-4d66-a257-af2b633f57fb))
+  (group "" (id 08f637aa-51f8-457f-ba1d-241e379cd51a)
+    (members
+      07109c35-1e57-43f3-8a6e-2e8519cffac9
+      09b4d769-c540-47ba-bc64-f60e95d4ef3b
+      239c0fca-427e-4d92-a02f-ca33f09a6cf2
+      9cc0ca21-45fa-4d19-a47d-1a6d0da5d25d
+      9d16c9d5-b1d3-4f33-a089-aa85016ed77a
+      ad2ba707-5e2e-4dbd-8c43-7b90f53418c9
+      c4c0bad2-8229-4250-9daa-8b8b34754144
+      d066b896-7c70-410b-a3ca-0bd34e731217
+ )
+  )
+)
