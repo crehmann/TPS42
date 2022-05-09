@@ -2858,7 +2858,7 @@
   (symbol (lib_id "power:VCC") (at 25.4 131.318 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 10d897cd-b73e-4f5d-a656-ec910cae761f)
-    (property "Reference" "#PWR?" (id 0) (at 29.21 131.318 0)
+    (property "Reference" "#PWR0109" (id 0) (at 29.21 131.318 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 22.352 131.318 90)
@@ -2901,23 +2901,6 @@
     )
     (pin "1" (uuid 84a7e645-992a-4c55-9ce6-e3813164fa10))
     (pin "2" (uuid 578f3b11-d02a-49f4-981a-788c8852c335))
-  )
-
-  (symbol (lib_id "TPS42:Hole") (at 133.35 119.888 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 17d212a3-6442-413e-b681-d1ce258c7aec)
-    (property "Reference" "U6" (id 0) (at 137.7951 118.3654 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "Hole" (id 1) (at 137.7951 121.073 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Footprint" "TPS42:HOLE_M2_TH" (id 2) (at 133.35 119.888 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 133.35 119.888 0)
-      (effects (font (size 1.524 1.524)))
-    )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 52.324 234.696 0) (mirror y) (unit 1)
@@ -4512,23 +4495,6 @@
     (pin "2" (uuid c49f0350-c255-4e1e-954f-7ac58703943a))
   )
 
-  (symbol (lib_id "TPS42:Hole") (at 119.126 141.224 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid eb5326f9-79d1-4584-a9a1-77d190619f83)
-    (property "Reference" "U10" (id 0) (at 123.5711 139.7014 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "Hole" (id 1) (at 123.5711 142.409 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Footprint" "TPS42:HOLE_M2_TH" (id 2) (at 119.126 141.224 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 119.126 141.224 0)
-      (effects (font (size 1.524 1.524)))
-    )
-  )
-
   (symbol (lib_id "power:VCC") (at 65.278 35.052 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ee2aca3c-900b-4ef0-8481-e2611ac20621)
@@ -4773,7 +4739,7 @@
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/10d897cd-b73e-4f5d-a656-ec910cae761f"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0109") (unit 1) (value "VCC") (footprint "")
     )
     (path "/c869f587-3433-4e49-b864-4e64391cc97e"
       (reference "C1") (unit 1) (value "2.2uF") (footprint "TPS42:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder_Reversable")
@@ -4994,9 +4960,6 @@
     (path "/42fd8e3f-2892-4411-9954-b309885b7af4"
       (reference "U5") (unit 1) (value "Hole") (footprint "TPS42:HOLE_M2_TH")
     )
-    (path "/17d212a3-6442-413e-b681-d1ce258c7aec"
-      (reference "U6") (unit 1) (value "Hole") (footprint "TPS42:HOLE_M2_TH")
-    )
     (path "/635c6e66-34fe-44d5-8653-7dde496ecaec"
       (reference "U7") (unit 1) (value "Hole") (footprint "TPS42:HOLE_M2_TH")
     )
@@ -5005,9 +4968,6 @@
     )
     (path "/379c27c7-7ded-4ba9-a9cf-2f2156ad142f"
       (reference "U9") (unit 1) (value "Hole") (footprint "TPS42:HOLE_M2_TH")
-    )
-    (path "/eb5326f9-79d1-4584-a9a1-77d190619f83"
-      (reference "U10") (unit 1) (value "Hole") (footprint "TPS42:HOLE_M2_TH")
     )
     (path "/05302be6-4b7f-4be6-9ed0-2304557fcb76"
       (reference "U11") (unit 1) (value "Hole") (footprint "TPS42:TPSensorModule")
