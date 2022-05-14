@@ -7,7 +7,7 @@
   (title_block
     (title "TPS42 Split Keyboard")
     (date "2021-11-13")
-    (rev "1")
+    (rev "${Revision}")
   )
 
   (lib_symbols
