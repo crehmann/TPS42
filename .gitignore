@@ -26,3 +26,6 @@ PCB/TPS42-Shield/TPS42-Shield-backups/*
 # Exported BOM files
 *.xml
 *.csv
+
+
+gerber.zip
