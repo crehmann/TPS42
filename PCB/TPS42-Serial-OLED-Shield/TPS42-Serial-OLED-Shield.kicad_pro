@@ -402,12 +402,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "TPS42-Shield"
+      "TPS42-Serial-OLED-Shield"
     ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TPS42-Shield.kicad_pro",
+    "filename": "TPS42-Serial-OLED-Shield.kicad_pro",
     "version": 1
   },
   "net_settings": {

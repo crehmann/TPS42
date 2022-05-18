@@ -716,7 +716,7 @@
     (property "Value" "OLED" (id 1) (at 26.924 51.054 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TPS42-Shield:OLED" (id 2) (at 26.924 39.116 0)
+    (property "Footprint" "TPS42-Serial-OLED-Shield:OLED" (id 2) (at 26.924 39.116 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 26.924 39.116 0)
@@ -854,7 +854,7 @@
     (uuid bb29eadf-6880-457d-8855-ab29e518b76b)
     (property "Reference" "J4" (id 0) (at 31.877 76.0772 0))
     (property "Value" "PJ-320A" (id 1) (at 32.893 61.0785 0))
-    (property "Footprint" "TPS42-Shield:MJ-4PP-9-reversable" (id 2) (at 33.02 68.834 0)
+    (property "Footprint" "TPS42-Serial-OLED-Shield:MJ-4PP-9-reversable" (id 2) (at 33.02 68.834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 33.02 68.834 0)
@@ -1007,13 +1007,13 @@
       (reference "#PWR0108") (unit 1) (value "VCC") (footprint "")
     )
     (path "/bb29eadf-6880-457d-8855-ab29e518b76b"
-      (reference "J4") (unit 1) (value "PJ-320A") (footprint "TPS42-Shield:MJ-4PP-9-reversable")
+      (reference "J4") (unit 1) (value "PJ-320A") (footprint "TPS42-Serial-OLED-Shield:MJ-4PP-9-reversable")
     )
     (path "/fdb5a690-9a4d-42dd-a69c-992990219ba2"
       (reference "J5") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/4d8eb33d-7456-4ffb-9897-c9d55e9b477e"
-      (reference "J6") (unit 1) (value "OLED") (footprint "TPS42-Shield:OLED")
+      (reference "J6") (unit 1) (value "OLED") (footprint "TPS42-Serial-OLED-Shield:OLED")
     )
     (path "/a0cc0da0-95a4-4b91-a824-b7e7df5c5bc5"
       (reference "JP9") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
