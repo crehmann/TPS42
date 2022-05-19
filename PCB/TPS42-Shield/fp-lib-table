@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "TPS42-Shield")(type "KiCad")(uri "${KIPRJMOD}/TPS42-Shield.pretty")(options "")(descr ""))
-)

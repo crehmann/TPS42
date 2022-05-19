@@ -14,7 +14,8 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 PCB/TPS42/TPS42-backups/*
-PCB/TPS42-Shield/TPS42-Shield-backups/*
+PCB/TPS42-LCD-Shield/TPS42-LCD-Shield-backups/*
+PCB/TPS42-Serial-OLED-Shield/TPS42-Serial-OLED-Shield-backups/*
 
 # Netlist files (exported from Eeschema)
 *.net
