@@ -74,6 +74,8 @@
     )
   )
 
+  (property "Revision" "1.0")
+
   (net 0 "")
   (net 1 "/L_DAT")
   (net 2 "/L_CS")
@@ -909,6 +911,9 @@
   (gr_line (start 89.86 36.05) (end 101.7 36.05) (layer "Edge.Cuts") (width 0.05) (tstamp f62776f2-b1bc-4eb1-b10e-80f3fbeb02b2))
   (gr_text "Left" (at 95.47 50.84 -90) (layer "B.SilkS") (tstamp a4523af0-9cc4-4355-96d1-c401269d0754)
     (effects (font (size 0.75 0.75) (thickness 0.1)) (justify mirror))
+  )
+  (gr_text "${Revision}" (at 95.75 37.25) (layer "F.SilkS") (tstamp 578f33ff-8d12-4136-bb61-e55b7655fa5b)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Right" (at 95.52 50.8 90) (layer "F.SilkS") (tstamp b93ddd20-6b06-4f50-a42d-38095b2ae703)
     (effects (font (size 0.75 0.75) (thickness 0.1)))

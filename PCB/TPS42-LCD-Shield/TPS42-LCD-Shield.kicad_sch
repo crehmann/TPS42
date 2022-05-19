@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "TPS42 LCD Shield")
+    (date "2022-05-19")
+    (rev "${Revision}")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 7.62 0)

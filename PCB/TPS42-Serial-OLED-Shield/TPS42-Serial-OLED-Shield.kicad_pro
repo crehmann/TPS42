@@ -120,6 +120,7 @@
         "silk_overlap|80161543|48063457|031a6a7e-a60d-455c-9f03-7a8b457732c7|40c082a8-5e62-4e93-87d8-72a100f04aa6",
         "silk_overlap|80161543|48963457|1782c074-1a1a-4393-9c00-9188894a33ec|40c082a8-5e62-4e93-87d8-72a100f04aa6",
         "silk_overlap|80161543|48963457|40c082a8-5e62-4e93-87d8-72a100f04aa6|1782c074-1a1a-4393-9c00-9188894a33ec",
+        "silk_overlap|80161543|51413457|1782c074-1a1a-4393-9c00-9188894a33ec|59f48d84-e4a4-4cbe-85ba-7d61ae05373a",
         "silk_overlap|80161543|51413457|59f48d84-e4a4-4cbe-85ba-7d61ae05373a|1782c074-1a1a-4393-9c00-9188894a33ec"
       ],
       "meta": {
@@ -391,7 +392,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -490,5 +491,7 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "Revision": "1.0"
+  }
 }
