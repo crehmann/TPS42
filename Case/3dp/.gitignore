@@ -4,3 +4,4 @@
 .ipython
 .jupyter
 .local
+*.stl
